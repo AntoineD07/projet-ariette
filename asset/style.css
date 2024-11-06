@@ -69,6 +69,7 @@ button {
     padding: 20px;
     border-radius: 10px; 
 }
+
 .contact-info img{
     width: 30px;
     height: 30px;
@@ -101,6 +102,7 @@ footer nav a {
    
 }
 .social img{
+    margin: 10px;
     
     width: 20px;
     height: 20px;
