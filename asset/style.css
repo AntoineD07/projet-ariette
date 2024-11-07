@@ -6,9 +6,11 @@
 }
 
 body{
+font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #3D858E;
    
 }
+
 ol{
     margin: 10px;
     list-style-type: none;
@@ -16,7 +18,6 @@ ol{
 .container{
     display: flex;
     height: 100%;
-    
     margin: 5%;
     align-content: center;
 }
@@ -50,8 +51,6 @@ button {
   
 }
 .image-section{
-    
-   
     background: url(./jpg/photographer2.jpg) no-repeat center center ;
     background-size: cover;
     position: relative;
@@ -59,37 +58,41 @@ button {
     align-items: center;
     justify-content: center;
 }
+
 .contact-info {
-    
-  
     text-align: center;
     color: white;
     margin: 10px;
-        
     padding: 20px;
     border-radius: 10px; 
 }
+
 
 .contact-info img{
     width: 30px;
     height: 30px;
     border-radius: 100%;
     border: white 1px;
+    align-content: flex-end;
     
 }
 .container2{
+   
     padding: 10%;
     display: flex;
     background-color: white;
-    height: 300px;
+    height: 200px;
     width: 100%;
 }
 
  
-footer {
+.footer {
     width: 100%;
     margin-top: 10px;
-    text-align:  center left;
+   /* text-align:  center right;/*/
+    justify-content: space-between;
+    display: flex;
+    
 
 }
 footer nav a {
@@ -102,11 +105,22 @@ footer nav a {
    
 }
 .social img{
-    margin: 10px;
-    
+    margin-right: 10px ;
     width: 20px;
     height: 20px;
-    align-content: center right;
+    
+   
+}
+.copy{
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: small;
+    padding: 20px;
+    color: #000000;
+    
+  
+
 }
 /*/footer div a {
     text-align: center right;
@@ -154,8 +168,8 @@ footer nav a {
     }
     .image-section{
         
-       width: 100%;
-       height: 100%;
+        width: 100%;
+        height: 100%;
         background: url(./jpg/photographer2.jpg) no-repeat center center ;
         background-size: cover;
         position: relative;
@@ -169,7 +183,6 @@ footer nav a {
         text-align: center;
         color: white;
         margin: 10px;
-            
         padding: 20px;
         border-radius: 10px; 
     }
